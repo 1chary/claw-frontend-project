@@ -1,0 +1,126 @@
+.sign-up-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.image-container {
+    height: 100vh;
+    width: 50%;
+    background-image: url("https://img.freepik.com/free-photo/sign-up-form-button-graphic-concept_53876-123684.jpg?ga=GA1.1.1041120550.1692680325&semt=ais_user");
+    background-size: cover;
+}
+
+.welcome-heading {
+    color: white;
+    font-size: 60px;
+    font-family: "Sans-serif";
+    font-style: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .sign-up-page {
+        flex-direction: column;
+    }
+    .image-container {
+        min-height: 50vh;
+        width: 100%;
+    }
+    .welcome-heading {
+        font-size: 32px;
+    }
+}
+
+.connection-heading {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: "Sans-serif";
+} 
+
+@media screen and (max-width: 767px) {
+    .connection-heading {
+        font-size: 22px;
+    }
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 50%;
+}
+
+.form-container {
+    min-height: 100vh;
+    width: 90%;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .details-container {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .form-container {
+        width: 95%;
+    }
+}
+
+.register-heading {
+    text-align: center;
+}
+.alignment-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.label-styling {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-field-box {
+    height: 20px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .input-field-box {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .input-field-box {
+        width: 300px;
+    }
+}
+.sign-in-button {
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: skyblue;
+    color: black
+}
+
+.have-an-account-para {
+    margin-top: 15px;
+}
+.log-in-text {
+    color: blue;
+}

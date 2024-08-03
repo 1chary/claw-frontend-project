@@ -1,0 +1,118 @@
+.weather-details-container {
+    margin-top: 10px;
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+    .weather-details-container {
+        width: 100%;
+    }
+}
+.dark-mode {
+    color: orange;
+    font-weight: 600;
+}
+.light-mode {
+    color: white;
+    font-weight: 600;
+}
+
+
+.city-and-date-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.city-and-country-container {
+    display: flex;
+    align-items: center;
+}
+.city-name-style {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 767px) {
+    .city-name-style {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .city-name-style {
+        font-size: 20px;
+    }
+}
+.icon-style {
+    font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+    .icon-style {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .icon-style {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+}
+.date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date-style {
+    font-size: 24px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+    .date-style {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .date-style {
+        font-size: 16px;
+    }
+}
+
+.temperature-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.outer-container-style {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+   
+}
+.inner-container-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.font-styling {
+    font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+    .font-styling {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .font-styling {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-element {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .dark-bg-image {
+    background-image: url("https://img.freepik.com/free-photo/bare-trees-daytime_395237-139.jpg?ga=GA1.1.1041120550.1692680325&semt=ais_hybrid");
+    background-size: cover;
+  }
+  
+  .light-bg-image{
+    background-image: url("https://img.freepik.com/premium-photo/leafs-autumn-season-bright-sunlight_1126929-408.jpg?ga=GA1.1.1041120550.1692680325&semt=ais_hybrid");
+    background-size: cover;
+  }
+  
+  
+  .weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #B2BEB5;
+    border-radius: 10px;
+    height: 50vh;
+    width: 60%
+  }
+  @media screen and (max-width: 767px) {
+    .weather-container {
+      width: 90%;
+    }
+  }
+  .search-container {
+    height: 50px;
+    width:75%;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 767px) {
+    .search-container {
+      width: 90%;
+    }
+  }
+  .search-input-box {
+    border: none;
+    width: 80%;
+    height: 50px;
+    outline: none;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .icon-button-style {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .icon-style {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .no-input-error-message {
+    color: red;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-right: 250px;
+  }
